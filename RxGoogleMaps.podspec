@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = "RxGoogleMaps"
-  s.version          = "3.0.1"
+  s.version          = "3.0.2"
   s.summary          = "RxSwift reactive wrapper for GoogleMaps SDK."
-  s.homepage         = "https://github.com/RxSwiftCommunity/RxGoogleMaps"
+  s.homepage         = "https://github.com/pavelR/RxGoogleMaps"
   s.license          = 'MIT'
   s.author           = { "Yongha Yoo" => "inkyfox@oo-v.com", "RxSwift Community" => "community@rxswift.org" }
   s.platform         = :ios, "8.0"
-  s.source           = { :git => "https://github.com/RxSwiftCommunity/RxGoogleMaps.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/pavelR/RxGoogleMaps.git", :tag => s.version.to_s }
   s.requires_arc          = true
   s.ios.deployment_target = '8.0'
   s.source_files          = 'Sources/*.swift'
