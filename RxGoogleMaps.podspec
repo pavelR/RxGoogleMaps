@@ -11,12 +11,38 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files          = 'Sources/*.swift'
 
-  s.static_framework = true
   s.dependency 'RxSwift', '~> 4.0'
   s.dependency 'RxCocoa', '~> 4.0'
-  s.dependency 'GoogleMaps', '~> 2.6.0'
+
+  # Integration Google Maps
+  s.libraries = [
+      'c++',
+      'z',
+  ]
+
+  s.frameworks = [
+        'Accelerate',
+        'CoreImage',
+        'CoreTelephony',
+        'CoreText',
+        'GLKit',
+        'ImageIO',
+        'OpenGLES',
+        'QuartzCore'
+  ]
+
+  s.vendored_frameworks = [
+        "Frameworks/Base/Frameworks/GoogleMapsBase.framework",
+        "Frameworks/Maps/Frameworks/GoogleMaps.framework",
+        "Frameworks/Maps/Frameworks/GoogleMapsCore.framework",
+  ]
+
+  s.resources = [
+        "Frameworks/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle"
+      ]
 
   s.pod_target_xcconfig = {
-    'SWIFT_VERSION' => '4.0'
+    'SWIFT_VERSION' => '4.0',
+    'OTHER_LDFLAGS' => '$(inherited) -ObjC',
   }
 end

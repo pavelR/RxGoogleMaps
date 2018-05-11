@@ -10,12 +10,12 @@
 		090646D61EB8C350007F53BA /* RxGoogleMaps-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 090646D41EB8C350007F53BA /* RxGoogleMaps-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		096B037E1EBD1F00008387E2 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096B037D1EBD1F00008387E2 /* RxCocoa.framework */; };
 		096B03801EBD1F16008387E2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096B037F1EBD1F16008387E2 /* RxSwift.framework */; };
+		2DED5A4169FE7238746F1974 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB70FB4F8D71453752C529C /* Pods_Example.framework */; };
 		A90F9CBC1DAABB5600A3461E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90F9CBB1DAABB5600A3461E /* AppDelegate.swift */; };
 		A90F9CBE1DAABB5600A3461E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90F9CBD1DAABB5600A3461E /* ViewController.swift */; };
 		A90F9CC11DAABB5600A3461E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90F9CBF1DAABB5600A3461E /* Main.storyboard */; };
 		A90F9CC31DAABB5600A3461E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90F9CC21DAABB5600A3461E /* Assets.xcassets */; };
 		A90F9CC61DAABB5600A3461E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90F9CC41DAABB5600A3461E /* LaunchScreen.storyboard */; };
-		C5B2468C4099994FDD74ED4D /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE9272F37DFF9F5256AB1B0 /* Pods_Example.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,7 @@
 		090646D51EB8C350007F53BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		096B037D1EBD1F00008387E2 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		096B037F1EBD1F16008387E2 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		259DDC520C5E3D8FE4BA82D7 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		53D0DB689702006F776EF1D4 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8B7F50A9253CD057B6471B54 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A90F9CB91DAABB5600A3461E /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90F9CBB1DAABB5600A3461E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A90F9CBD1DAABB5600A3461E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +32,8 @@
 		A90F9CC21DAABB5600A3461E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A90F9CC51DAABB5600A3461E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A90F9CC71DAABB5600A3461E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEE9272F37DFF9F5256AB1B0 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB70FB4F8D71453752C529C /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C875F1EA28076C83D728BB /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		E58C77E01FABF78500521822 /* libRxGoogleMaps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRxGoogleMaps.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B2468C4099994FDD74ED4D /* Pods_Example.framework in Frameworks */,
+				2DED5A4169FE7238746F1974 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,16 +80,16 @@
 				E58C77E01FABF78500521822 /* libRxGoogleMaps.a */,
 				096B037F1EBD1F16008387E2 /* RxSwift.framework */,
 				096B037D1EBD1F00008387E2 /* RxCocoa.framework */,
-				AEE9272F37DFF9F5256AB1B0 /* Pods_Example.framework */,
+				BAB70FB4F8D71453752C529C /* Pods_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9B7A7BF2C222C22118C2FAA0 /* Pods */ = {
+		8AA0DFFB431A9D39040AC9D4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53D0DB689702006F776EF1D4 /* Pods-Example.debug.xcconfig */,
-				259DDC520C5E3D8FE4BA82D7 /* Pods-Example.release.xcconfig */,
+				8B7F50A9253CD057B6471B54 /* Pods-Example.debug.xcconfig */,
+				C1C875F1EA28076C83D728BB /* Pods-Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -101,8 +101,8 @@
 				A90F9CBA1DAABB5600A3461E /* Example */,
 				090646D31EB8C350007F53BA /* RxGoogleMaps-iOS */,
 				A90F9C9C1DAAB67100A3461E /* Products */,
-				9B7A7BF2C222C22118C2FAA0 /* Pods */,
 				75B80F02794213887976E6AD /* Frameworks */,
+				8AA0DFFB431A9D39040AC9D4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,12 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A90F9CD31DAABB5600A3461E /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				E60D97708A067C5B28366CED /* [CP] Check Pods Manifest.lock */,
+				7D3A1FA34CB910E5D15DC3D1 /* [CP] Check Pods Manifest.lock */,
 				A90F9CB51DAABB5600A3461E /* Sources */,
 				A90F9CB61DAABB5600A3461E /* Frameworks */,
 				A90F9CB71DAABB5600A3461E /* Resources */,
-				B242D01270BF228B3014484C /* [CP] Embed Pods Frameworks */,
-				6B2BC5CA30B5D2E4A6CED63E /* [CP] Copy Pods Resources */,
+				16E2D7844E11E2D6F786CD4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,25 +240,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6B2BC5CA30B5D2E4A6CED63E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B242D01270BF228B3014484C /* [CP] Embed Pods Frameworks */ = {
+		16E2D7844E11E2D6F786CD4A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,11 +248,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxGoogleMaps/RxGoogleMaps.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGoogleMaps.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +262,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E60D97708A067C5B28366CED /* [CP] Check Pods Manifest.lock */ = {
+		7D3A1FA34CB910E5D15DC3D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -498,11 +481,15 @@
 		};
 		A90F9CD41DAABB5600A3461E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53D0DB689702006F776EF1D4 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 8B7F50A9253CD057B6471B54 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H7VM6ZW9AJ;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/Maps/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/Base/Frameworks",
+				);
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oo-v.RxGoogleMaps.Example";
@@ -513,11 +500,15 @@
 		};
 		A90F9CD51DAABB5600A3461E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 259DDC520C5E3D8FE4BA82D7 /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = C1C875F1EA28076C83D728BB /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H7VM6ZW9AJ;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/Maps/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/Base/Frameworks",
+				);
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oo-v.RxGoogleMaps.Example";
